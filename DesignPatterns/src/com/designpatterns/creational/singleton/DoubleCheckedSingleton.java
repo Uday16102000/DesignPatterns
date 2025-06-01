@@ -2,7 +2,7 @@ package com.designpatterns.creational.singleton;
 
 public class DoubleCheckedSingleton {
 	
-	private static DoubleCheckedSingleton doubleCheckedSingleton;
+	private static volatile DoubleCheckedSingleton doubleCheckedSingleton;
 	
 	public DoubleCheckedSingleton()
 	{
