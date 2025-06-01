@@ -1,0 +1,13 @@
+package com.designpatterns.creational;
+
+public class ThreadSafeSingleton {
+	
+	private static ThreadSafeSingleton threadSafeSingleton;
+	
+	
+	private ThreadSafeSingleton()
+	{
+		System.out.println("ThreadSSafe Singleton Created Successfully");
+	}
+
+}

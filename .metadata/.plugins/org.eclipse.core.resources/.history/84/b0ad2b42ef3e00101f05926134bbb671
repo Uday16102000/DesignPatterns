@@ -1,0 +1,5 @@
+package com.design.patterns.singleton.lazy;
+
+public class LazySingleton {
+
+}
